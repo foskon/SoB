@@ -11,14 +11,14 @@ import UIKit
 
 class LootCard: NSObject
 {
-    let _identifier      : String
-    let _name            : String
-    let _description     : String
+    let cardId              : String
+    let cardName            : String
+    let cardDescription     : String
     
     init(identifier: String, name: String, description: String) {
-        _identifier     = identifier
-        _name           = name
-        _description    = description
+        self.cardId             = identifier
+        self.cardName           = name
+        self.cardDescription    = description
         
         super.init()
     }

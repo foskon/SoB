@@ -9,13 +9,27 @@
 import UIKit
 
 
-class LootCardsInteractor: NSObject
+class LootCardsInteractor: NSObject, LootCardsInteractorInputProtocol
 {
-    var _lootCardsDataManager: LootCardsDataManager
+    var dataManager    : LootCardsDataManager
+    var output         : LootCardsInteractorOutputProtocol
     
-    init(lootCardsDataManager: LootCardsDataManager) {
-        _lootCardsDataManager = lootCardsDataManager
+    init(dataManager: LootCardsDataManager, output: LootCardsInteractorOutputProtocol) {
+        self.dataManager    = dataManager
+        self.output         = output
         
         super.init()
+    }
+}
+
+
+extension LootCardsInteractor: LootCardsInteractorInputProtocol
+{
+    func interactorGetLootCardRandomly() {
+        self.dataManager.lootCardRandomly { (card) -> Void in
+            if let lCard = card {
+                self.output.interactorGotLootCard(lCard)
+            }
+        }
     }
 }

@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51329B71A9BBA8300349430 /* LootCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B61A9BBA8300349430 /* LootCard.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
 		C59D45151A9BB82F00B62B0F /* SoBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45141A9BB82F00B62B0F /* SoBTests.swift */; };
 		C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45231A9BB90100B62B0F /* AppDelegate.swift */; };
+		C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C51329B61A9BBA8300349430 /* LootCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCard.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		C59D45131A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45141A9BB82F00B62B0F /* SoBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoBTests.swift; sourceTree = "<group>"; };
 		C59D45231A9BB90100B62B0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C51329B51A9BBA7700349430 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C51329B61A9BBA8300349430 /* LootCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C59D44F01A9BB82F00B62B0F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +134,7 @@
 		C59D45241A9BB90100B62B0F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C51329B51A9BBA7700349430 /* Model */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -137,8 +150,17 @@
 		C59D45261A9BB90100B62B0F /* LootCards */ = {
 			isa = PBXGroup;
 			children = (
+				C59D45281A9BB94000B62B0F /* DataManager */,
 			);
 			path = LootCards;
+			sourceTree = "<group>";
+		};
+		C59D45281A9BB94000B62B0F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */,
+				C51329B71A9BBA8300349430 /* LootCard.swift in Sources */,
+				C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +457,7 @@
 				C59D451A1A9BB82F00B62B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C59D451B1A9BB82F00B62B0F /* Build configuration list for PBXNativeTarget "SoBTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +466,7 @@
 				C59D451D1A9BB82F00B62B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

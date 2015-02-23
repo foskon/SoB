@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C59D44FF1A9BB82F00B62B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D44FE1A9BB82F00B62B0F /* AppDelegate.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
 		C59D45151A9BB82F00B62B0F /* SoBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45141A9BB82F00B62B0F /* SoBTests.swift */; };
+		C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45231A9BB90100B62B0F /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +27,13 @@
 /* Begin PBXFileReference section */
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C59D44FE1A9BB82F00B62B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C59D45051A9BB82F00B62B0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C59D45081A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C59D450E1A9BB82F00B62B0F /* SoBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D45131A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45141A9BB82F00B62B0F /* SoBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoBTests.swift; sourceTree = "<group>"; };
+		C59D45231A9BB90100B62B0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		C59D44FB1A9BB82F00B62B0F /* SoB */ = {
 			isa = PBXGroup;
 			children = (
-				C59D44FE1A9BB82F00B62B0F /* AppDelegate.swift */,
+				C59D45221A9BB90100B62B0F /* Classes */,
 				C59D45021A9BB82F00B62B0F /* Main.storyboard */,
 				C59D45051A9BB82F00B62B0F /* Images.xcassets */,
 				C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */,
@@ -107,6 +107,38 @@
 				C59D45131A9BB82F00B62B0F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C59D45221A9BB90100B62B0F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C59D45231A9BB90100B62B0F /* AppDelegate.swift */,
+				C59D45241A9BB90100B62B0F /* Common */,
+				C59D45251A9BB90100B62B0F /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C59D45241A9BB90100B62B0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C59D45251A9BB90100B62B0F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C59D45261A9BB90100B62B0F /* LootCards */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C59D45261A9BB90100B62B0F /* LootCards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LootCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59D44FF1A9BB82F00B62B0F /* AppDelegate.swift in Sources */,
+				C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

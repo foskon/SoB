@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class LootCard: NSObject
 {
     let _identifier      : String

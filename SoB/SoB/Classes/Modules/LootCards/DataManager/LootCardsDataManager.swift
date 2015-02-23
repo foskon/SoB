@@ -8,13 +8,16 @@
 
 import UIKit
 
+
 class LootCardsDataManager: NSObject
 {
-    func lootCardRandomly(complete: (() -> Void)?) {
-
+    func lootCardRandomly(complete: ((card: LootCard?) -> Void)?) {
+        
+        // get loot card from service or from persistence manager
+        let card = LootCard(identifier: "identifier", name: "name", description: "description")
         
         if let lComplete = complete {
-            lComplete()
+            lComplete(card: card)
         }
     }
 }

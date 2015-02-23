@@ -19,5 +19,7 @@ class LootCard: NSObject
         _identifier     = identifier
         _name           = name
         _description    = description
+        
+        super.init()
     }
 }

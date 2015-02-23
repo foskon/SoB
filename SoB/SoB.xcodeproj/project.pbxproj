@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C51329B71A9BBA8300349430 /* LootCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B61A9BBA8300349430 /* LootCard.swift */; };
+		C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		C51329B61A9BBA8300349430 /* LootCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCard.swift; sourceTree = "<group>"; };
+		C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractor.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 				C51329B61A9BBA8300349430 /* LootCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C51329B81A9BBC0300349430 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		C59D44F01A9BB82F00B62B0F = {
@@ -150,6 +160,7 @@
 		C59D45261A9BB90100B62B0F /* LootCards */ = {
 			isa = PBXGroup;
 			children = (
+				C51329B81A9BBC0300349430 /* Interactor */,
 				C59D45281A9BB94000B62B0F /* DataManager */,
 			);
 			path = LootCards;
@@ -265,6 +276,7 @@
 			files = (
 				C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */,
 				C51329B71A9BBA8300349430 /* LootCard.swift in Sources */,
+				C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */,
 				C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

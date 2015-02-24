@@ -10,10 +10,10 @@
 		C51329B71A9BBA8300349430 /* LootCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B61A9BBA8300349430 /* LootCard.swift */; };
 		C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */; };
 		C51329BC1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329BB1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift */; };
+		C5233CA41A9D016300DDC310 /* LootCardsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5233CA31A9D016300DDC310 /* LootCardsInteractorTests.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
-		C59D45151A9BB82F00B62B0F /* SoBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45141A9BB82F00B62B0F /* SoBTests.swift */; };
 		C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45231A9BB90100B62B0F /* AppDelegate.swift */; };
 		C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +32,7 @@
 		C51329B61A9BBA8300349430 /* LootCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCard.swift; sourceTree = "<group>"; };
 		C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractor.swift; sourceTree = "<group>"; };
 		C51329BB1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractorProtocols.swift; sourceTree = "<group>"; };
+		C5233CA31A9D016300DDC310 /* LootCardsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LootCardsInteractorTests.swift; path = Classes/LootCardsInteractorTests.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		C59D45081A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C59D450E1A9BB82F00B62B0F /* SoBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D45131A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C59D45141A9BB82F00B62B0F /* SoBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoBTests.swift; sourceTree = "<group>"; };
 		C59D45231A9BB90100B62B0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +120,7 @@
 		C59D45111A9BB82F00B62B0F /* SoBTests */ = {
 			isa = PBXGroup;
 			children = (
-				C59D45141A9BB82F00B62B0F /* SoBTests.swift */,
+				C5233CA31A9D016300DDC310 /* LootCardsInteractorTests.swift */,
 				C59D45121A9BB82F00B62B0F /* Supporting Files */,
 			);
 			path = SoBTests;
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59D45151A9BB82F00B62B0F /* SoBTests.swift in Sources */,
+				C5233CA41A9D016300DDC310 /* LootCardsInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -435,6 +436,7 @@
 				INFOPLIST_FILE = SoBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoB.app/SoB";
 			};
 			name = Debug;
@@ -443,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

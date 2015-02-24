@@ -9,17 +9,15 @@
 import UIKit
 
 
-class LootCard: NSObject
+public class LootCard
 {
-    let cardId              : String
-    let cardName            : String
-    let cardDescription     : String
+    public let cardId              : String
+    public let cardName            : String
+    public let cardDescription     : String
     
-    init(identifier: String, name: String, description: String) {
+    public init(identifier: String, name: String, description: String) {
         self.cardId             = identifier
         self.cardName           = name
         self.cardDescription    = description
-        
-        super.init()
     }
 }

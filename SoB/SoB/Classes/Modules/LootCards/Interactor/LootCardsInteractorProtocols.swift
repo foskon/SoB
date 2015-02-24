@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol LootCardsInteractorInputProtocol
+public protocol LootCardsInteractorInputProtocol
 {
     func interactorGetLootCardRandomly()
 }
 
-protocol LootCardsInteractorOutputProtocol
+public protocol LootCardsInteractorOutputProtocol
 {
     func interactorGotLootCard(card: LootCard)
 }

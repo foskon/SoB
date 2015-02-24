@@ -9,9 +9,13 @@
 import UIKit
 
 
-class LootCardsDataManager: NSObject
+public class LootCardsDataManager
 {
-    func lootCardRandomly(complete: ((card: LootCard?) -> Void)?) {
+    public init() {
+        
+    }
+    
+    public func lootCardRandomly(complete: ((card: LootCard?) -> Void)?) {
         
         // get loot card from service or from persistence manager
         let card = LootCard(identifier: "identifier", name: "name", description: "description")

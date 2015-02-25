@@ -10,13 +10,14 @@
 		C51329B71A9BBA8300349430 /* LootCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B61A9BBA8300349430 /* LootCard.swift */; };
 		C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */; };
 		C51329BC1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51329BB1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift */; };
-		C5233CB31A9D23B600DDC310 /* LootCardsDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5233CAF1A9D23B600DDC310 /* LootCardsDataManagerTests.swift */; };
-		C5233CB41A9D23B600DDC310 /* LootCardsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5233CB11A9D23B600DDC310 /* LootCardsInteractorTests.swift */; };
+		C5594C391A9E575D000C0FCC /* LootCardsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C381A9E575D000C0FCC /* LootCardsDataManager.swift */; };
+		C5594C421A9E5812000C0FCC /* LootCardsDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C3C1A9E5812000C0FCC /* LootCardsDataManagerTests.swift */; };
+		C5594C431A9E5812000C0FCC /* LootCardsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C3E1A9E5812000C0FCC /* LootCardsInteractorTests.swift */; };
+		C5594C481A9E589B000C0FCC /* LootCardsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C471A9E589B000C0FCC /* LootCardsPresenterTests.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
 		C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45231A9BB90100B62B0F /* AppDelegate.swift */; };
-		C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +34,10 @@
 		C51329B61A9BBA8300349430 /* LootCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCard.swift; sourceTree = "<group>"; };
 		C51329B91A9BBC1300349430 /* LootCardsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractor.swift; sourceTree = "<group>"; };
 		C51329BB1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractorProtocols.swift; sourceTree = "<group>"; };
-		C5233CAF1A9D23B600DDC310 /* LootCardsDataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManagerTests.swift; sourceTree = "<group>"; };
-		C5233CB11A9D23B600DDC310 /* LootCardsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractorTests.swift; sourceTree = "<group>"; };
+		C5594C381A9E575D000C0FCC /* LootCardsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManager.swift; sourceTree = "<group>"; };
+		C5594C3C1A9E5812000C0FCC /* LootCardsDataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManagerTests.swift; sourceTree = "<group>"; };
+		C5594C3E1A9E5812000C0FCC /* LootCardsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsInteractorTests.swift; sourceTree = "<group>"; };
+		C5594C471A9E589B000C0FCC /* LootCardsPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsPresenterTests.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,7 +46,6 @@
 		C59D450E1A9BB82F00B62B0F /* SoBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D45131A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45231A9BB90100B62B0F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,58 +86,96 @@
 		C5233CA81A9D23B600DDC310 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C5233CA91A9D23B600DDC310 /* Common */,
 				C5233CAC1A9D23B600DDC310 /* Modules */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C5233CA91A9D23B600DDC310 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				C5233CAA1A9D23B600DDC310 /* Model */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		C5233CAA1A9D23B600DDC310 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		C5233CAC1A9D23B600DDC310 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				C5233CAD1A9D23B600DDC310 /* LootCards */,
+				C5594C3A1A9E5812000C0FCC /* LootCards */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		C5233CAD1A9D23B600DDC310 /* LootCards */ = {
+		C5594C341A9E5714000C0FCC /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				C5233CAE1A9D23B600DDC310 /* DataManager */,
-				C5233CB01A9D23B600DDC310 /* Interactor */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C5594C351A9E5724000C0FCC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C5594C361A9E572E000C0FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5594C371A9E575D000C0FCC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C5594C381A9E575D000C0FCC /* LootCardsDataManager.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C5594C3A1A9E5812000C0FCC /* LootCards */ = {
+			isa = PBXGroup;
+			children = (
+				C5594C3B1A9E5812000C0FCC /* Entity */,
+				C5594C3D1A9E5812000C0FCC /* Interactor */,
+				C5594C3F1A9E5812000C0FCC /* Presenter */,
+				C5594C401A9E5812000C0FCC /* Router */,
+				C5594C411A9E5812000C0FCC /* View */,
 			);
 			path = LootCards;
 			sourceTree = "<group>";
 		};
-		C5233CAE1A9D23B600DDC310 /* DataManager */ = {
+		C5594C3B1A9E5812000C0FCC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				C5233CAF1A9D23B600DDC310 /* LootCardsDataManagerTests.swift */,
+				C5594C3C1A9E5812000C0FCC /* LootCardsDataManagerTests.swift */,
 			);
-			path = DataManager;
+			path = Entity;
 			sourceTree = "<group>";
 		};
-		C5233CB01A9D23B600DDC310 /* Interactor */ = {
+		C5594C3D1A9E5812000C0FCC /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				C5233CB11A9D23B600DDC310 /* LootCardsInteractorTests.swift */,
+				C5594C3E1A9E5812000C0FCC /* LootCardsInteractorTests.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C5594C3F1A9E5812000C0FCC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C5594C471A9E589B000C0FCC /* LootCardsPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C5594C401A9E5812000C0FCC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C5594C411A9E5812000C0FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C59D44F01A9BB82F00B62B0F = {
@@ -222,18 +262,13 @@
 		C59D45261A9BB90100B62B0F /* LootCards */ = {
 			isa = PBXGroup;
 			children = (
+				C5594C361A9E572E000C0FCC /* View */,
 				C51329B81A9BBC0300349430 /* Interactor */,
-				C59D45281A9BB94000B62B0F /* DataManager */,
+				C5594C341A9E5714000C0FCC /* Presenter */,
+				C5594C371A9E575D000C0FCC /* Entity */,
+				C5594C351A9E5724000C0FCC /* Router */,
 			);
 			path = LootCards;
-			sourceTree = "<group>";
-		};
-		C59D45281A9BB94000B62B0F /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				C59D45291A9BB95000B62B0F /* LootCardsDataManager.swift */,
-			);
-			path = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +372,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */,
+				C5594C391A9E575D000C0FCC /* LootCardsDataManager.swift in Sources */,
 				C51329B71A9BBA8300349430 /* LootCard.swift in Sources */,
 				C51329BC1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift in Sources */,
 				C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */,
-				C59D452A1A9BB95000B62B0F /* LootCardsDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5233CB31A9D23B600DDC310 /* LootCardsDataManagerTests.swift in Sources */,
-				C5233CB41A9D23B600DDC310 /* LootCardsInteractorTests.swift in Sources */,
+				C5594C481A9E589B000C0FCC /* LootCardsPresenterTests.swift in Sources */,
+				C5594C431A9E5812000C0FCC /* LootCardsInteractorTests.swift in Sources */,
+				C5594C421A9E5812000C0FCC /* LootCardsDataManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,6 +37,11 @@
                BlueprintName = "SoBTests"
                ReferencedContainer = "container:SoB.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "LootInteractorTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

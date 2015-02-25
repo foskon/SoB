@@ -15,6 +15,7 @@ public class LootCard
     public let cardName            : String
     public let cardDescription     : String
     
+    
     public init(identifier: String, name: String, description: String) {
         self.cardId             = identifier
         self.cardName           = name

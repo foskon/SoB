@@ -25,17 +25,21 @@ class LootCardsInteractorTests: XCTestCase {
     
     
     func testShouldReturnRandomLoorCard() {
-        // Mocks
+        // Given
         //
-        class MockPresenter: LootCardsInteractorOutputProtocol
+        class MockOutput: LootCardsInteractorOutputProtocol
         {
             private func interactorGotLootCard(card: LootCard) {
+                // Then
+                //
                 XCTAssertEqual(card.cardId,             "identifier")
                 XCTAssertEqual(card.cardDescription,    "description")
                 XCTAssertEqual(card.cardName,           "name")
             }
         }
         
+        // And given
+        //
         class MockDataManager: LootCardsDataManager
         {
             private override func lootCardRandomly(complete: ((card: LootCard?) -> Void)?) {
@@ -45,11 +49,13 @@ class LootCardsInteractorTests: XCTestCase {
             }
         }
         
-        // Tests
+        // And given
         //
-        let interactor = LootCardsInteractor(dataManager: MockDataManager(), output: MockPresenter())
-        interactor.interactorGetLootCardRandomly()
+        let interactor = LootCardsInteractor(dataManager: MockDataManager(), output: MockOutput())
         
+        // When
+        //
+        interactor.interactorGetLootCardRandomly()
     }
 }
 

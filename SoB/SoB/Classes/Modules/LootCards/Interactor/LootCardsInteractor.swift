@@ -9,7 +9,7 @@
 import UIKit
 
 
-public class LootCardsInteractor: LootCardsInteractorInputProtocol
+public class LootCardsInteractor
 {
     var dataManager    : LootCardsDataManager
     var output         : LootCardsInteractorOutputProtocol
@@ -21,6 +21,7 @@ public class LootCardsInteractor: LootCardsInteractorInputProtocol
 }
 
 
+// MARK: LootCardsInteractorInput
 extension LootCardsInteractor: LootCardsInteractorInputProtocol
 {
     public func interactorGetLootCardRandomly() {

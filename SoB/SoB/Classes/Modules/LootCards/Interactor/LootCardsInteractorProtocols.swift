@@ -6,14 +6,21 @@
 //  Copyright (c) 2015 Carlos Manzanas Navia. All rights reserved.
 //
 
+
 import UIKit
+
 
 public protocol LootCardsInteractorInputProtocol
 {
     func interactorGetLootCardRandomly()
 }
 
+
 public protocol LootCardsInteractorOutputProtocol
 {
     func interactorGotLootCard(card: LootCard)
 }
+
+
+
+

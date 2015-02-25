@@ -12,6 +12,7 @@ import UIKit
 public class AppDelegate: UIResponder, UIApplicationDelegate {
 
     public var window: UIWindow?
+    public var appDependencies = AppDependencies()
     
 
     public func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -21,6 +22,8 @@ public class AppDelegate: UIResponder, UIApplicationDelegate {
                 return true
             }
         }
+        
+        appDependencies.installRootViewControllerIntoWindow(self.window!)
         
         return true
     }

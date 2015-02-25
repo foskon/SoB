@@ -17,6 +17,7 @@
 		C5594C4F1A9E5EFB000C0FCC /* AppDependenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C4E1A9E5EFB000C0FCC /* AppDependenciesTests.swift */; };
 		C5594C511A9E5F81000C0FCC /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C501A9E5F81000C0FCC /* AppDependencies.swift */; };
 		C5594C531A9E622B000C0FCC /* LootCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C521A9E622B000C0FCC /* LootCardsRouter.swift */; };
+		C5594C571A9E6A9D000C0FCC /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C561A9E6A9D000C0FCC /* AppDelegateTests.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
@@ -44,6 +45,7 @@
 		C5594C4E1A9E5EFB000C0FCC /* AppDependenciesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependenciesTests.swift; sourceTree = "<group>"; };
 		C5594C501A9E5F81000C0FCC /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		C5594C521A9E622B000C0FCC /* LootCardsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsRouter.swift; sourceTree = "<group>"; };
+		C5594C561A9E6A9D000C0FCC /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		C5233CA81A9D23B600DDC310 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C5594C561A9E6A9D000C0FCC /* AppDelegateTests.swift */,
 				C5594C4E1A9E5EFB000C0FCC /* AppDependenciesTests.swift */,
 				C5233CAC1A9D23B600DDC310 /* Modules */,
 			);
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5594C4F1A9E5EFB000C0FCC /* AppDependenciesTests.swift in Sources */,
+				C5594C571A9E6A9D000C0FCC /* AppDelegateTests.swift in Sources */,
 				C5594C481A9E589B000C0FCC /* LootCardsPresenterTests.swift in Sources */,
 				C5594C431A9E5812000C0FCC /* LootCardsInteractorTests.swift in Sources */,
 				C5594C421A9E5812000C0FCC /* LootCardsDataManagerTests.swift in Sources */,

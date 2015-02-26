@@ -10,14 +10,14 @@ import UIKit
 
 public class LootCardsRouter
 {
+    var lootCardsViewController: LootCardsViewController?
+    
     public  init() {
-        
         
     }
     
     
     public func presentLootCardsInterfaceFromWindow(window: UIWindow) {
-    
         
     }
 }

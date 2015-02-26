@@ -18,6 +18,8 @@
 		C5594C511A9E5F81000C0FCC /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C501A9E5F81000C0FCC /* AppDependencies.swift */; };
 		C5594C531A9E622B000C0FCC /* LootCardsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C521A9E622B000C0FCC /* LootCardsRouter.swift */; };
 		C5594C571A9E6A9D000C0FCC /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C561A9E6A9D000C0FCC /* AppDelegateTests.swift */; };
+		C5594C591A9E78E5000C0FCC /* LootCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C581A9E78E5000C0FCC /* LootCardsViewController.swift */; };
+		C5594C5B1A9EE4DB000C0FCC /* LootCardsViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5594C5A1A9EE4DB000C0FCC /* LootCardsViewInterface.swift */; };
 		C59D45041A9BB82F00B62B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59D45021A9BB82F00B62B0F /* Main.storyboard */; };
 		C59D45061A9BB82F00B62B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59D45051A9BB82F00B62B0F /* Images.xcassets */; };
 		C59D45091A9BB82F00B62B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59D45071A9BB82F00B62B0F /* LaunchScreen.xib */; };
@@ -46,6 +48,8 @@
 		C5594C501A9E5F81000C0FCC /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		C5594C521A9E622B000C0FCC /* LootCardsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsRouter.swift; sourceTree = "<group>"; };
 		C5594C561A9E6A9D000C0FCC /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
+		C5594C581A9E78E5000C0FCC /* LootCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsViewController.swift; sourceTree = "<group>"; };
+		C5594C5A1A9EE4DB000C0FCC /* LootCardsViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LootCardsViewInterface.swift; sourceTree = "<group>"; };
 		C59D44F91A9BB82F00B62B0F /* SoB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59D44FD1A9BB82F00B62B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59D45031A9BB82F00B62B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 		C5594C361A9E572E000C0FCC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C5594C581A9E78E5000C0FCC /* LootCardsViewController.swift */,
+				C5594C5A1A9EE4DB000C0FCC /* LootCardsViewInterface.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -385,11 +391,13 @@
 			files = (
 				C5594C511A9E5F81000C0FCC /* AppDependencies.swift in Sources */,
 				C59D45271A9BB90100B62B0F /* AppDelegate.swift in Sources */,
+				C5594C591A9E78E5000C0FCC /* LootCardsViewController.swift in Sources */,
 				C5594C391A9E575D000C0FCC /* LootCardsDataManager.swift in Sources */,
 				C5594C531A9E622B000C0FCC /* LootCardsRouter.swift in Sources */,
 				C51329B71A9BBA8300349430 /* LootCard.swift in Sources */,
 				C51329BC1A9BBDCA00349430 /* LootCardsInteractorProtocols.swift in Sources */,
 				C51329BA1A9BBC1300349430 /* LootCardsInteractor.swift in Sources */,
+				C5594C5B1A9EE4DB000C0FCC /* LootCardsViewInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,7 @@ import UIKit
 
 public class AppDependencies: NSObject
 {
-    var lootCardsRouter = LootCardsRouter()
+    var lootCardsRouter: LootCardsRouter!
     
     
     public override init() {
@@ -33,7 +33,12 @@ public class AppDependencies: NSObject
     
     func setupDependencies() {
         
+        let rootRouter      = RootRouter()
         
+        let lootCardsRouter = LootCardsRouter()
+        lootCardsRouter.rootRouter = rootRouter
+        
+        self.lootCardsRouter = lootCardsRouter
     }
     
     
